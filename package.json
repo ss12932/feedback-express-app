@@ -1,0 +1,28 @@
+{
+  "name": "week11-mini-project",
+  "version": "1.0.0",
+  "description": "In this mini-project, you will work with a group to add routes to an existing application. You will create one wildcard route for serving up a 404 page, as well as a diagnostics route for logging failed form validation.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss12932/week11-mini-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ss12932/week11-mini-project/issues"
+  },
+  "homepage": "https://github.com/ss12932/week11-mini-project#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
