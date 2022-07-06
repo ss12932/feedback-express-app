@@ -20,6 +20,7 @@
   "homepage": "https://github.com/ss12932/week11-mini-project#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "moment": "^2.29.4",
     "uuid": "^8.3.2"
   },
   "devDependencies": {

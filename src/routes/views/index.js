@@ -1,7 +1,11 @@
 const { Router } = require('express');
 const router = Router();
 
-const { renderFeedback, renderHome } = require('../../controllers/view');
+const {
+  renderFeedback,
+  renderHome,
+  renderError,
+} = require('../../controllers/views');
 
 router.get('/feedback', renderFeedback);
 router.get('/', renderHome);
